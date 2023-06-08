@@ -1,7 +1,3 @@
-# Vue 3 + Vite
+#Advice generator app Demo ;
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+![desktop-design](https://github.com/AlaskanCrab/Advice-generator-app/assets/104378401/7295e436-61e8-4f7b-9b23-e02e5550d9f1)
