@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap");
+:root {
+  ---Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+  background-color: var(--Dark-Blue);
+  overflow: hidden;
+}
+h1 {
+  color: var(--Neon-Green);
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+}
+p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(---Light-Cyan);
+}
+.container {
+  display: flex;
+  min-height: 30vh;
+  max-width: 70vh;
+  background-color: var(--Dark-Grayish-Blue);
+  border-radius: 1.2rem;
+}
+.middle-content {
+  margin: 0rem 3rem 0rem 3rem;
+  padding: 1rem;
+  min-height: 40vh;
+  max-width: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+.dice-btn {
+  top: 64%;
+  position: absolute;
+  border: none;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-radius: 5rem;
+  background-color: var(--Neon-Green);
+  transition: 0.3s;
+}
+.dice-btn:hover {
+  box-shadow: 0rem 0rem 1rem 0.2rem var(--Neon-Green);
+  cursor: pointer;
+  opacity: 0.9;
+}
+.dice-btn:active {
+  opacity: 0.6;
+}
+.img-line {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.img-dice {
+  height: 1.7rem;
+}
+
+.attribution {
+  color: var(---Light-Cyan);
+  margin-top: 3rem;
+  font-size: 0.7rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--Neon-Green);
+}
